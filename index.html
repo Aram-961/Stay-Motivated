@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay Motivated</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<!-- JavaScript -->
+<script>
+    alert("Hey Cutie! Click On The Button ❤");
+    function myFunction() {
+        let Person = prompt("please enter your name", "Christopher potter");
+        if (Person != null) {
+            document.getElementById("demo").innerHTML =
+                "Hello " + Person + "! How are you? <br> Just in Case.. <br> no one has told you today <br> You are amazing! <br> Have a really great day ❤";
+        }
+    }
+</script>
+<!-- end of JavaScript -->
+
+<style>
+    body {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        background-color: #261C2C;
+    }
+
+    button {
+        margin-top: 15.4375rem;
+        border: 1px solid #664E88;
+        background-color: #664E88;
+        padding: 1.25rem;
+        border-radius: 1.875rem;
+        width: 13.125rem;
+        color: #ffff;
+        font-size: 15px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    button:hover {
+        background-color: #4B3869;
+        transition: background-color, 1s;
+    }
+
+    #demo {
+        margin-bottom: -12.375rem;
+        font-size: 20px;
+        color: #B5FFD9;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <p id="demo"></p>
+    <button onclick="myFunction()">Hey...!</button>
+</body>
+
+</html>
